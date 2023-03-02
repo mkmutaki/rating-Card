@@ -16,7 +16,7 @@ rateAgain.addEventListener("click", function () {
 });
 
 rate.forEach(function (rates, i) {
-  rate.addEventListener("click", () => {
+  rates.addEventListener("click", () => {
     rating.innerHTML = i + 1;
   });
 });
