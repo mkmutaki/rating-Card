@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  @apply w-11 h-11 mb-6 rounded-full bg-slate-600 text-white hover:bg-orange-500 focus:bg-circle-focus;
+}
