@@ -3,7 +3,7 @@ const thanksContainer = document.querySelector(".thank-you");
 const submitButton = document.getElementById("submit");
 const rateAgain = document.getElementById("rate-again");
 const rating = document.getElementById("rating");
-const rates = document.querySelectorAll(".btn");
+const rate = document.querySelectorAll(".btn");
 
 submitButton.addEventListener("click", function () {
   thanksContainer.classList.remove("hidden");
@@ -15,7 +15,7 @@ rateAgain.addEventListener("click", function () {
   mainContainer.style.display = "block";
 });
 
-rates.forEach(function (rate, i) {
+rate.forEach(function (rates, i) {
   rate.addEventListener("click", () => {
     rating.innerHTML = i + 1;
   });
