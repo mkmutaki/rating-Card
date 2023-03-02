@@ -547,24 +547,8 @@ video {
   height: 2.25rem;
 }
 
-.h-8{
-  height: 2rem;
-}
-
-.h-12{
-  height: 3rem;
-}
-
-.h-11{
-  height: 2.75rem;
-}
-
 .min-h-screen{
   min-height: 100vh;
-}
-
-.min-h-full{
-  min-height: 100%;
 }
 
 .w-10{
@@ -689,10 +673,6 @@ video {
 
 .uppercase{
   text-transform: uppercase;
-}
-
-.leading-3{
-  line-height: .75rem;
 }
 
 .text-gray-400{
